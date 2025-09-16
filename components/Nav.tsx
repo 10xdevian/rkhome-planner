@@ -4,6 +4,7 @@ const Nav = () => {
   return (
   <div className="navbar bg-blue-950 shadow-sm justify-between items-center">
     {/* //for mobile view */}
+    
   <div className="navbar-start flex justify-between w-full lg:w-auto px-14">
 
         <a className="btn btn-ghost text-xl">Rk-planner</a>
