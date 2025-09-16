@@ -1,17 +1,9 @@
 import Image from "next/image";
-
+import Nav from "../components/Nav";
 export default function Home() {
- return(
+return (
   <div>
-    Welcome to Rk-Home Planner!
-    <Image
-      className="dark:invert"
-      src="/next.svg"
-      alt="Next.js logo"
-      width={180}
-      height={38}
-      priority
-    />
+    <Nav />
   </div>
- );
+)
 }
