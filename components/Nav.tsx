@@ -8,6 +8,7 @@ const Nav = () => {
   <div className="navbar-start flex justify-between w-full lg:w-auto px-14">
 
         <a className="btn btn-ghost text-xl">Rk-planner</a>
+        
 
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
