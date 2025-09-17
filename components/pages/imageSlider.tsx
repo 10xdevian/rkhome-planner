@@ -41,12 +41,45 @@ const Imageslider = () => {
               sm:h-[400px]    /* small tablets */
               md:h-[500px]    /* tablets */
               lg:h-[650px]    /* large tablets/small laptops */
-              xl:h-[850px]    /* desktops (keep original) */
+              xl:h-[850px]    /* desktops */
               flex-shrink-0
               object-cover
             "
           />
         ))}
+      </div>
+
+      {/* Static text overlay */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+        <h2 className="text-8xl sm:text-8xl text-green-700 font-bold drop-shadow-md">
+          Design and manage <br/> home plans with ease
+        </h2>
+        <p className="mt-2 sm:mt-4 text-green-950 text-2xl sm:text-2xl max-w-2xl drop-shadow-md">
+          Transform your living space with our expert design services. You can expect much more from us.
+        </p>
+        <button className="
+    bg-gradient-to-r from-blue-600 to-indigo-600 
+    text-white 
+    font-semibold 
+    px-6 
+    py-3 
+    rounded-full 
+    shadow-lg 
+    hover:from-indigo-600 
+    hover:to-blue-600 
+    hover:scale-105 
+    active:scale-95 
+    focus:outline-none 
+    focus:ring-4 
+    focus:ring-indigo-300 
+    transition-all 
+    duration-300
+    mt-6
+    cursor-pointer
+    text-xl
+    sm:text-2xl
+  ">Contact For Your Customized Plan</button>
+
       </div>
 
       {/* Navigation buttons */}
